@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='style.css' />
+  </head>
+  <body>
+    <div>
+      <div class="rating">Overall Rating</div>
+      <div
+        role="progressbar"
+        aria-valuenow="67"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        style="--value: 67"
+      ></div>
+    </div>
+
+    <div class="linear-progress">
+      <div class="title">Traction</div>
+      <div class="container">
+        <div class="skill traction"></div>
+      </div>
+      <div class="percentage_traction">80%</div>
+    </div>
+
+    <div class="linear-progress">
+      <div class="title">Cushion</div>
+      <div class="container">
+        <div class="skill cushion"></div>
+      </div>
+      <div class="percentage_cushion">90%</div>
+    </div>
+
+    <div class="linear-progress">
+      <div class="title">Material</div>
+      <div class="container">
+        <div class="skill material"></div>
+      </div>
+      <div class="percentage_cushion">90%</div>
+    </div>
+
+    <div class="linear-progress">
+      <div class="title">Support</div>
+      <div class="container">
+        <div class="skill support"></div>
+      </div>
+      <div class="percentage_support">100%</div>
+    </div>
+
+    <div class="linear-progress">
+      <div class="title">Fit & Lock</div>
+      <div class="container">
+        <div class="skill fit_lock"></div>
+      </div>
+      <div class="percentage_cushion">90%</div>
+    </div>
+
+    <div class="linear-progress">
+      <div class="title">Outdoor & Durability</div>
+      <div class="container">
+        <div class="skill outdoor_durability"></div>
+      </div>
+      <div class="percentage_traction">80%</div>
+    </div>
+
+    <div class="linear-progress">
+      <div class="title">Comfort</div>
+      <div class="container">
+        <div class="skill comfort"></div>
+      </div>
+      <div class="percentage_traction">80%</div>
+    </div>
+
+    <div class="linear-progress">
+      <div class="title">User Reviews</div>
+      <div class="container">
+        <div class="skill reviews"></div>
+      </div>
+      <div class="percentage_traction">80%</div>
+    </div>
+  </body>
+</html>
